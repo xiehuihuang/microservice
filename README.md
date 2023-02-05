@@ -6,7 +6,7 @@
  + 1.2.应用技术：
 	+ 1.NET6.0 WebApi + mysql + Redis + ORM(EntityFrameworkCore) + RabbitMQ
 	+ 2.AOP + Autofac + AutoMapper + JWT + log4net + Swagger 
-	+ 3.Consul(微服务注册、服务健康检查、服务发现) + Polly(超时、重试、降级、熔断)
+	+ 3.Consul(微服务注册、服务健康检查、服务发现) + Polly(超时、重试、降级、熔断) + Nacos(服务配置中心)
 	+ 4.DDD领域驱动设计模式微服务拆解
 	+ 5.微服务模块：用户微服务、商品微服务、库存微服务、订单微服务
  + 1.3 代码git clone：https://github.com/xiehuihuang/microservice.git
@@ -33,37 +33,37 @@
   
  
 #### 三、项目框架结构
-  + 1. UserMicroservice      用户微服务
+  1. UserMicroservice      用户微服务
 	+ UserMicro.DTOModel
 	+ UserMicro.Interface
 	+ UserMicro.Model
 	+ UserMicro.Service
 	+ UserMicro.WebApi
-  + 2. BrandMicroservice     品牌微服务
-  	+ BrandMicro.DTOModel
+  2. BrandMicroservice     品牌微服务
+	+ BrandMicro.DTOModel
 	+ BrandMicro.Interface
 	+ BrandMicro.Model
 	+ BrandMicro.Service
 	+ BrandMicro.WebApi
-  + 2. AuthMicroservice      鉴权微服务
+  3. AuthMicroservice      鉴权微服务
 	+ AuthMicro.DTOModel
 	+ AuthMicro.Interface
 	+ AuthMicro.Model
 	+ AuthMicro.Service
 	+ AuthMicro.WebApi
-  + 3. GoodsMicroservice     商品微服务
+  4. GoodsMicroservice     商品微服务
 	+ GoodsMicro.DTOModel
 	+ GoodsMicro.Interface
 	+ GoodsMicro.Model
 	+ GoodsMicro.Service
 	+ GoodsMicro.WebApi
-  + 4. InventoryMicroservice 库存微服务
+  5. InventoryMicroservice 库存微服务
 	+ InventoryMicro.DTOModel
 	+ InventoryMicro.Interface
 	+ InventoryMicro.Model
 	+ InventoryMicro.Service
 	+ InventoryMicro.WebApi
-  + 5. OrderMicroservice     订单微服务
+  6. OrderMicroservice     订单微服务
 	+ OrderMicro.DTOModel
 	+ OrderMicro.Interface
 	+ OrderMicro.Model
