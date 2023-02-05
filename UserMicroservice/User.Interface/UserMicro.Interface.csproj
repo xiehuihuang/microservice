@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Framework.Common\Framework.Common.csproj" />
+    <ProjectReference Include="..\User.DTOModel\UserMicro.DTO.csproj" />
+    <ProjectReference Include="..\User.Model\UserMicro.Model.csproj" />
+  </ItemGroup>
+
+</Project>
