@@ -70,7 +70,7 @@
 	+ OrderMicro.Service
 	+ OrderMicro.WebApi
 ![4 基于分层的微服务](https://user-images.githubusercontent.com/32085450/216821061-7ba961a9-8536-4c53-97d8-9322e66efb38.png)
-
+![私服](https://user-images.githubusercontent.com/32085450/216871776-db5a7b97-0e92-45fb-8f7b-5289cdb6e366.png)
 ![microservice代码框架目录](https://user-images.githubusercontent.com/32085450/216821035-8f022c9b-218c-4c26-94d3-5f5d346d9e28.png)
 
 ![用户微服务WebApi](https://user-images.githubusercontent.com/32085450/216821075-13d6cbc0-0307-49bb-b38e-2f1a7f4b76ee.png)
